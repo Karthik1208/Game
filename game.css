@@ -1,8 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    
-}
+ }
 .navbar{
     position: fixed;
     display: flex;
@@ -10,7 +9,6 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #d4d7de;
     width:100%;
     height: 70px;
     z-index: 1;
@@ -21,64 +19,39 @@ body{
     list-style: none;
     margin-right: 15%;
 }
-.logo{
-    flex:1 1 auto;
-    margin-left: 10%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 35px;
-}
 a{
     margin: 15px;
-    color: #000;
+    color:white;
     text-decoration: none;
     text-transform: uppercase;
 }
 a:hover{
     color:red;
 }
-.page{
-    position:relative;
-    background-image:url(imgk.jpg) ;
+img{ 
     width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 650px;
 }
-#home,#action,#battle,#contact,#race,#shoot{
+.container{
     position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    height: 700px;
-    color:white;
-    background-image:url(imgk.jpg) ;
- }
-#download{
-     position:absolute;
-     top: 400px;
-     right: 550px;
-     border: 1px solid coral;
-     background-color: red;
-     text-align: center;
-     color: white;
- }
- p{
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-   color:rgb(126, 8, 236); 
- }
- fieldset{
-     border: 1px solid black;
-     width: 1200px;;
- }
- legend{
-     background-color: coral;
- }
- li{
-     color: purple;
- }
- 
+    text-align: center;
+    color: white;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+h2{
+    border: 1px solid red;
+    background-color: red;
+    
+}
+.service{
+    color: black;
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+    padding-right: 1%;
+}
  
