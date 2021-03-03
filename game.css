@@ -54,8 +54,17 @@ a:hover{
     flex-direction: row;
     width: 100%;
     height: 700px;
-    color: orangered;
+    color:white;
     background-image:url(imgk.jpg) ;
+ }
+#download{
+     position:absolute;
+     top: 400px;
+     right: 550px;
+     border: 1px solid coral;
+     background-color: red;
+     text-align: center;
+     color: white;
  }
  p{
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
