@@ -45,7 +45,9 @@ img{
 h2{
     border: 1px solid red;
     background-color: red;
-    
+    width:fit-content;
+    position: absolute;
+    left:40%;
 }
 .service{
     color: black;
